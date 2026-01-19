@@ -141,7 +141,7 @@
 </p>
 
 <p align="center">
-  <i>"First, solve the problem. Then, write the code." - John Johnson</i> 💻
+  <i>"Le meilleur moment pour planter un arbre était il y a 20 ans. Le deuxième meilleur moment est maintenant."</i> 🌱
   <br/>
   <i>"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie</i> 🚀
 </p>
