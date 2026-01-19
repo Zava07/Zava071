@@ -2,7 +2,7 @@
 
 <!-- Titre Stylisé avec Effet -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=75&duration=1500&pause=500&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=%F0%9F%91%8B+Salut%2C+je+suis+Zava07" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=50&duration=1500&pause=500&color=00D9FF&center=true&vCenter=true&width=800&height=80&lines=%F0%9F%91%8B+Salut%2C+je+suis+Zava07" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -98,6 +98,11 @@
 ### 🔧 Outils & Autres
 <p>
   <img src="https://skillicons.dev/icons?i=docker,git,github,vscode,postman,npm" alt="Tools" />
+</p>
+
+### 🚨 IDE & Environnements
+<p>
+  <img src="https://skillicons.dev/icons?i=idea,pycharm,webstorm,phpstorm,vscode,eclipse" alt="IDEs" />
 </p>
 
 </div>
