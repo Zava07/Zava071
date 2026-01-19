@@ -2,9 +2,7 @@
 
 ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Zava07.Zava07)
 
-<div align="center">
-  <img src="assets/banner.svg" alt="Bannière" width="100%"/>
-</div>
+
 
 <!-- Hero animé (SVG) -->
 ![Hero animé](assets/hero.svg)
