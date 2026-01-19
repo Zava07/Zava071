@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%92%BB;Computer+Science+Student+%F0%9F%8E%93;Always+Learning+New+Things+%F0%9F%94%A5;Building+Something+Cool+%E2%9C%A8" alt="Typing SVG" />
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
 ### 🚀 Étudiant en informatique passionné par le développement
 ### 💡 Je transforme le café en code depuis Madagascar 🇲🇬
@@ -94,14 +94,15 @@ Bienvenue sur mon profil GitHub ! Ici tu trouveras mes projets, technologies et 
 
 <div align="center">
 
-### 🏆 Mon parcours en 2025
+### 🏆 Mon parcours en 2025-2026
 
 ```text
-📝 229 contributions cette année
-🔥 Plus grande série : 15 jours consécutifs
+📝 285 contributions totales (depuis Feb 2024)
+💻 11 commits cette année
+🔥 Série actuelle : 2 jours (Jan 18-19)
+🎯 Plus longue série : 11 jours (Jan 6-16)
 💼 Projets actifs : FrameWork, Gestion_Entreprise, bibliotheque
-🌟 40+ dépôts créés
-💻 71% commits | 1% code review | 28% issues
+⭐ Toujours en apprentissage et amélioration continue
 ```
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Zava07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true" />
