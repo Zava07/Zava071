@@ -1,13 +1,20 @@
-# Salut — je suis Zava07 👋
-
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Zava07.Zava07)
-
 <div align="center">
-  <img src="assets/banner.svg" alt="Bannière" width="100%"/>
+  
+# 👋 Salut, je suis Zava07
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%92%BB;Computer+Science+Student+%F0%9F%8E%93;Always+Learning+New+Things+%F0%9F%94%A5;Building+Something+Cool+%E2%9C%A8" alt="Typing SVG" />
+
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
+
+### 🚀 Étudiant en informatique passionné par le développement
+### 💡 Je transforme le café en code depuis Madagascar 🇲🇬
+
+[![GitHub followers](https://img.shields.io/github/followers/Zava07?style=social)](https://github.com/Zava07)
+[![GitHub stars](https://img.shields.io/github/stars/Zava07?style=social)](https://github.com/Zava07)
+
 </div>
 
-<!-- Hero animé (SVG) -->
-![Hero animé](assets/hero.svg)
+---
 
 Bienvenue sur mon profil GitHub ! Ici tu trouveras mes projets, technologies et une démo interactive hébergée via GitHub Pages.
 
@@ -55,7 +62,7 @@ Bienvenue sur mon profil GitHub ! Ici tu trouveras mes projets, technologies et 
 
 ---
 
-## 🛠 Tech stack
+## 🛠 Technologies
 
 <p>
   <img src="https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java" alt="Java"/>
@@ -70,9 +77,35 @@ Bienvenue sur mon profil GitHub ! Ici tu trouveras mes projets, technologies et 
 
 ---
 
-## 📊 Statistiques
+## 📊 Statistiques & Activité
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Zava07&show_icons=true&theme=radical)
+<div align="center">
+
+### 🏆 Mon parcours en 2025
+
+```text
+📝 229 contributions cette année
+🔥 Plus grande série : 15 jours consécutifs
+💼 Projets actifs : FrameWork, Gestion_Entreprise, bibliotheque
+🌟 40+ dépôts créés
+💻 71% commits | 1% code review | 28% issues
+```
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Zava07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Zava07&theme=tokyonight&hide_border=true&background=0D1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
+
+</div>
+
+### 📈 Langages les plus utilisés
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Zava07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+</div>
+
+### 🎯 Activité récente
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
