@@ -145,8 +145,4 @@
 
 </div>
 
----
 
-<div align="center">
-  <sub>Fait avec ❤️ par <a href="https://github.com/Zava07">Zava07</a></sub>
-</div>
