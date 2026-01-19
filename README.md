@@ -65,12 +65,14 @@
 ```
 
 - 🔭 Je travaille actuellement sur des projets full‑stack
-- 🌐 J'étudie les réseaux informatiques et l'administration système
-- 🌱 J'apprends constamment de nouvelles technologies (Vue, Docker, etc.)
+- � J'étudie les réseaux informatiques et l'administration système
+- �🌱 J'apprends constamment de nouvelles technologies (Vue, Docker, etc.)
+- 💬 N'hésite pas à me poser des questions sur le développement web
+- 📫 Contacte‑moi via les liens ci-dessous
 
     </td>
-    <td align="center" valign="top" width="40%">
-      <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="100%" alt="Hacker Coding"/>
+    <td align="center">
+      <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="350" alt="Hacker Coding"/>
     </td>
   </tr>
 </table>
@@ -80,7 +82,6 @@
 - 🔗 LinkedIn : [Zava Anjaranantenain](https://www.linkedin.com/in/zava-anjaranantenaina-b64a04329/)
 - 🐦 Twitter : [Joary Zava](https://x.com/JoaryZava12652)
 - 💻 GitHub : [Zava07](https://github.com/Zava07)
-- 📧 Email : ajoary1@gmail.com
 
 ---
 
