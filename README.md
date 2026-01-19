@@ -1,22 +1,46 @@
 <div align="center">
-  
-# 👋 Salut, je suis Zava07
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%92%BB;Computer+Science+Student+%F0%9F%8E%93;Always+Learning+New+Things+%F0%9F%94%A5;Building+Something+Cool+%E2%9C%A8" alt="Typing SVG" />
+<!-- Titre Stylisé avec Effet -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=75&duration=1500&pause=500&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=%F0%9F%91%8B+Salut%2C+je+suis+Zava07" alt="Typing SVG" />
+</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%92%BB;Computer+Science+Student+%F0%9F%8E%93;Always+Learning+New+Things+%F0%9F%94%A5;Building+Something+Cool+%E2%9C%A8" alt="Subtitle" />
+</p>
 
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+
+<br/>
 
 ### 🚀 Étudiant en informatique passionné par le développement
 ### 💡 Je transforme le café en code depuis Madagascar 🇲🇬
 
-[![GitHub followers](https://img.shields.io/github/followers/Zava07?style=social)](https://github.com/Zava07)
-[![GitHub stars](https://img.shields.io/github/stars/Zava07?style=social)](https://github.com/Zava07)
+<br/>
+
+<p align="center">
+  <a href="https://github.com/Zava07">
+    <img src="https://img.shields.io/github/followers/Zava07?label=Followers&style=for-the-badge&logo=github&color=58a6ff" alt="followers" />
+  </a>
+  <a href="https://github.com/Zava07">
+    <img src="https://img.shields.io/github/stars/Zava07?label=Stars&style=for-the-badge&logo=github&color=ffd700" alt="stars" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Zava07&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views" />
+</p>
 
 </div>
 
+<br/>
+<br/>
+
 ---
 
-Bienvenue sur mon profil GitHub ! Ici tu trouveras mes projets, technologies et une démo interactive hébergée via GitHub Pages.
+<div align="center">
+  
+### 💫 Bienvenue sur mon profil GitHub ! 
+*Ici tu trouveras mes projets, technologies et une démo interactive hébergée via GitHub Pages.*
+
+</div>
 
 
 
