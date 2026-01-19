@@ -57,6 +57,7 @@
   "name": "Zava Anjaranantenaina",
   "location": "Madagascar, MG",
   "education": "ITU - Computer Science",
+  "email" : "ajoary1@gmail.com"
   "currentFocus": "Full-Stack Web Development",
   "hobbies": ["Coding 💻", "Learning 📚", "Design 🎨"],
   "funFact": "I turn coffee ☕ into code!"
@@ -123,6 +124,10 @@
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
 ### 🕹️ Code. Create. Innovate. Repeat. 🚀
+
+<p>
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" alt="Pac-Man"/>
+</p>
 
 <p>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=footer&text=Zava07&fontSize=42&fontAlignY=70&desc=Keep%20Coding%20%F0%9F%9A%80&descAlignY=51&descAlign=50" width="100%" alt="Footer Animation"/>
