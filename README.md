@@ -2,7 +2,7 @@
 
 <!-- Titre Stylisé avec Effet -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=50&duration=1500&pause=500&color=00D9FF&center=true&vCenter=true&width=800&height=80&lines=%F0%9F%91%8B+Salut%2C+je+suis+Zava+Anjaranantenaina" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=1500&pause=500&color=00D9FF&center=true&vCenter=true&width=900&height=70&lines=%F0%9F%91%8B+Salut%2C+je+suis+Zava+Anjaranantenaina" alt="Typing SVG" />
 </h1>
 
 <p align="center">
