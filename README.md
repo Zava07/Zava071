@@ -1,16 +1,19 @@
-## Hi there 👋
+# Salut, je suis Zava07 👋
 
-<!--
-**Zava07/Zava07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Bienvenue sur mon profil GitHub !
 
-Here are some ideas to get you started:
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Zava07.Zava07)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## À propos
+- Passionné par ... (ajoute ici)
+- J'aime créer des choses belles et animées ✨
+
+## Mes stats
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Zava07&show_icons=true&theme=radical)
+
+## Animation / visuel
+Voici une animation (GIF ou SVG animé) incluse dans le README :
+
+![Mon animation](assets/animation.gif)
+
+> Remarque : Le README supporte Markdown (images, badges, tableaux), mais pas le JavaScript. Pour des animations interactives, utilise GitHub Pages.
