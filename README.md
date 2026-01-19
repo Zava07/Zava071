@@ -137,7 +137,7 @@
 </p>
 
 <p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=footer&text=Zava07&fontSize=42&fontAlignY=70&desc=Keep%20Coding%20%F0%9F%9A%80&descAlignY=51&descAlign=50" width="100%" alt="Footer Animation"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=footer&text=The+only+way+to+go+fast+is+to+go+well&fontSize=28&fontAlignY=65&desc=Robert+C.+Martin+(Uncle+Bob)&descAlignY=85&descAlign=50" width="100%" alt="Footer Animation"/>
 </p>
 
 <p align="center">
