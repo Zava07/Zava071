@@ -17,41 +17,35 @@
     .card{width:100%;max-width:980px;background:linear-gradient(180deg,var(--glass),var(--glass-2));border-radius:16px;padding:28px;box-shadow:0 10px 30px rgba(2,6,23,0.6);backdrop-filter: blur(8px);border:1px solid rgba(255,255,255,0.04);display:grid;grid-template-columns:1fr 380px;gap:24px;align-items:stretch;}
     .left h1{margin:0 0 6px;font-size:28px;letter-spacing:-0.6px}
     .left p{margin:8px 0 18px;color:#cfe7ffcc}
-    /* Animated badges row */
     .badges{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
-    /* Lottie container */
     .lottie{display:flex;align-items:center;justify-content:center;padding:8px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));}
-    /* Tech list in card right */
     .right{display:flex;flex-direction:column;gap:12px}
     .techs{display:flex;flex-wrap:wrap;gap:8px}
     .techs img{height:34px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.45)}
     .cta{margin-top:8px}
     .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#06b6d4);color:white;text-decoration:none;font-weight:600;box-shadow:0 10px 30px rgba(124,58,237,0.18);border:none}
-    /* Floating cards animation */
     .float-card{padding:14px;border-radius:12px;background:rgba(255,255,255,0.03);transform:translateY(0);animation:float 4s ease-in-out infinite}
     @keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-8px)}100%{transform:translateY(0)}}
     footer{margin-top:16px;color:#9fb9d1;font-size:13px}
     @media (max-width:980px){.card{grid-template-columns:1fr;}.right{order:2}}
+    /* simple skeleton for loaded/unloaded states */
+    .skeleton {background:linear-gradient(90deg,#111 0%, #1a2a44 50%, #111 100%); background-size:200% 100%; animation: shimmer 1.6s infinite; border-radius:6px;}
+    @keyframes shimmer { from { background-position:200% 0 } to { background-position:-200% 0 } }
   </style>
 </head>
 <body>
   <div class="wrap">
     <div class="card">
       <div class="left">
-        <h1>Zava07 — Développeur & créateur d'expériences</h1>
-        <p>Bienvenue ! Ce profil montre mes projets, les technologies que j'utilise et une démo interactive. Clique sur le bouton pour voir des exemples et animations.</p>
+        <h1 id="profileName">Zava07 — Développeur & créateur d'expériences</h1>
+        <p id="profileBio">Chargement de la description…</p>
 
-        <div class="badges">
-          <!-- Badges par défaut — je peux remplacer par tes tech -->
-          <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" height="32">
-          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" height="32">
-          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" height="32">
-          <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" height="32">
-          <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" height="32">
+        <div class="badges" id="badgesRow">
+          <!-- Badges insérés dynamiquement -->
         </div>
 
         <div style="display:flex;gap:12px;align-items:center">
-          <a class="btn" href="https://Zava07.github.io/Zava07" target="_blank" rel="noreferrer">Voir la démo interactive</a>
+          <a class="btn" id="demoBtn" href="https://Zava07.github.io/Zava07" target="_blank" rel="noreferrer">Voir la démo interactive</a>
           <a class="btn" style="background:transparent;border:1px solid rgba(255,255,255,0.06)" href="#techs">Voir techs</a>
         </div>
 
@@ -59,12 +53,11 @@
           <strong>Astuce :</strong> pour afficher cette page via GitHub Pages, active Pages dans les settings du repo (branche main / root).
         </div>
 
-        <footer>Besoin que j’ajoute tes tech exacts ? Envoie la liste et je mets à jour tout ça.</footer>
+        <footer id="profileContact">Chargement contact…</footer>
       </div>
 
       <div class="right">
         <div class="lottie" style="height:240px;">
-          <!-- Lottie interactive — fonctionne dans Pages -->
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
           <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_jcikwtux.json" background="transparent" speed="1" style="width:280px;height:220px;" loop autoplay></lottie-player>
         </div>
@@ -72,16 +65,10 @@
         <div id="techs">
           <h3 style="margin:6px 0 4px">Tech utilisées</h3>
           <div class="techs" id="techList">
-            <!-- Par défaut — remplaçable -->
-            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS">
-            <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
-            <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS">
-            <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node">
-            <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white" alt="Three">
-            <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind">
+            <!-- Techs insérées dynamiquement -->
           </div>
           <div class="cta">
-            <a class="btn" href="https://github.com/Zava07" target="_blank" rel="noreferrer">Mon GitHub</a>
+            <a class="btn" id="githubBtn" href="https://github.com/Zava07" target="_blank" rel="noreferrer">Mon GitHub</a>
           </div>
         </div>
       </div>
@@ -89,16 +76,57 @@
   </div>
 
   <script>
-    // Si tu veux remplacer automatiquement les techs ici, mets la liste dans techsArray.
-    // Envoie-moi la liste exacte et je mettrai à jour automatiquement.
-    const techsArray = ["React","TypeScript","Node.js","Three.js","Tailwind","Docker","GitHub Actions"];
-    // Optionnel : génération dynamique (décommenter pour usage local)
-    // const container = document.getElementById('techList');
-    // container.innerHTML = techsArray.map(t => {
-    //   const slug = encodeURIComponent(t.replace(/\s+/g,'-'));
-    //   const color = 'white';
-    //   return `<img src="https://img.shields.io/badge/${slug}-2b6cb0?style=flat-square&logo=${slug}&logoColor=${color}" alt="${t}">`;
-    // }).join('');
+    // Chargement dynamique de about.json
+    async function loadAbout() {
+      try {
+        const res = await fetch('./about.json', {cache: "no-store"});
+        if (!res.ok) throw new Error('about.json non trouvé');
+        const about = await res.json();
+
+        // Mise à jour du DOM
+        document.getElementById('profileName').textContent = `${about.name} — ${about.title || ''}`;
+        document.getElementById('profileBio').textContent = about.bio || '';
+        document.getElementById('profileContact').innerHTML = [
+          about.location ? `📍 ${about.location}` : '',
+          about.contact && about.contact.website ? `🔗 <a href="${about.contact.website}" target="_blank" style="color:inherit;text-decoration:underline">${about.contact.website}</a>` : '',
+          about.contact && about.contact.email ? ` ✉️ <a href="mailto:${about.contact.email}" style="color:inherit;text-decoration:underline">${about.contact.email}</a>` : ''
+        ].filter(Boolean).join(' &nbsp; • &nbsp; ');
+
+        // Badges (ligne du haut)
+        const badgesRow = document.getElementById('badgesRow');
+        badgesRow.innerHTML = '';
+        (about.badges || []).slice(0,8).forEach(url => {
+          const img = document.createElement('img');
+          img.src = url;
+          img.alt = 'badge';
+          img.height = 32;
+          img.style.borderRadius = '8px';
+          badgesRow.appendChild(img);
+        });
+
+        // Liste des techs
+        const techList = document.getElementById('techList');
+        techList.innerHTML = '';
+        (about.skills || []).forEach(t => {
+          const slug = encodeURIComponent(t.replace(/\s+/g,'-'));
+          const img = document.createElement('img');
+          // tente logo shields.io avec nom de la tech
+          img.src = `https://img.shields.io/badge/${slug}-2b6cb0?style=flat-square&logo=${slug}&logoColor=white`;
+          img.alt = t;
+          techList.appendChild(img);
+        });
+
+        // Mise à jour des liens
+        if (about.contact && about.contact.github) document.getElementById('githubBtn').href = about.contact.github;
+        if (about.contact && about.contact.website) document.getElementById('demoBtn').href = about.contact.website;
+
+      } catch (err) {
+        console.warn('Impossible de charger about.json', err);
+        // contenu par défaut déjà présent dans le HTML
+      }
+    }
+
+    loadAbout();
   </script>
 </body>
 </html>
