@@ -7,13 +7,24 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#00d2ff"/>
+    </linearGradient>
   </defs>
-  <rect x="0" y="0" width="900" height="220" rx="14" fill="#0f1720" stroke="#2a2f3a"/>
+  <rect x="0" y="0" width="900" height="220" rx="14" fill="#0f1720" stroke="#222731"/>
   <g transform="translate(24,28)">
-    <rect width="820" height="160" rx="10" fill="#111318" stroke="#3a3a4a"/>
-    <text x="24" y="54" font-family="Segoe UI, Roboto, sans-serif" font-size="28" fill="#9cc4ff" filter="url(#glow)">Hey there! 👋</text>
-    <text x="24" y="92" font-family="Segoe UI, Roboto, sans-serif" font-size="16" fill="#cbd5e1">Welcome to my GitHub , Let's code together</text>
-    <circle cx="780" cy="36" r="8" fill="#2ee6a7"/>
-    <text x="792" y="41" font-family="Segoe UI, Roboto, sans-serif" font-size="12" fill="#9cc4ff">Online</text>
+    <rect width="820" height="160" rx="10" fill="#0e1113" stroke="#1f2530"/>
+    <text x="24" y="54" font-family="Segoe UI, Roboto, sans-serif" font-size="28" fill="url(#accent)" filter="url(#glow)">Hey there! 👋</text>
+    <g>
+      <text x="24" y="92" font-family="Segoe UI, Roboto, sans-serif" font-size="16" fill="#cbd5e1">Welcome to my GitHub — Let's code together</text>
+      <rect x="24" y="100" width="420" height="2" rx="1" fill="url(#accent)">
+        <animate attributeName="width" values="0;420;0" dur="4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g transform="translate(652,8)">
+      <circle cx="28" cy="28" r="10" fill="#2ee6a7"/>
+      <text x="44" y="34" font-family="Segoe UI, Roboto, sans-serif" font-size="12" fill="#9cc4ff">Online</text>
+    </g>
   </g>
 </svg>

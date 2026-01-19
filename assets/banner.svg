@@ -1,13 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
   <defs>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0%" stop-color="#8e44ad"/>
-      <stop offset="50%" stop-color="#6f86d6"/>
-      <stop offset="100%" stop-color="#16a085"/>
+    <linearGradient id="grad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7b2ff7"/>
+      <stop offset="50%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00d2ff"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="180" fill="url(#g)" rx="8"/>
+
+  <rect width="1200" height="220" rx="12" fill="url(#grad)"/>
+
+  <!-- animated waves -->
+  <g transform="translate(0,140)">
+    <path id="wave1" d="M0 40 C 150 10 350 80 600 52 C 850 24 1050 68 1200 40 L1200 80 L0 80 Z" fill="url(#waveGrad)">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 40 C 150 10 350 80 600 52 C 850 24 1050 68 1200 40 L1200 80 L0 80 Z; M0 36 C 150 60 350 10 600 42 C 850 84 1050 30 1200 36 L1200 80 L0 80 Z; M0 40 C 150 10 350 80 600 52 C 850 24 1050 68 1200 40 L1200 80 L0 80 Z"/>
+    </path>
+    <path id="wave2" d="M0 20 C 200 60 400 0 700 30 C 1000 60 1100 12 1200 20 L1200 80 L0 80 Z" fill="#ffffff" opacity="0.03">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0 20 C 200 60 400 0 700 30 C 1000 60 1100 12 1200 20 L1200 80 L0 80 Z; M0 16 C 200 20 400 36 700 12 C 1000 8 1100 44 1200 16 L1200 80 L0 80 Z; M0 20 C 200 60 400 0 700 30 C 1000 60 1100 12 1200 20 L1200 80 L0 80 Z"/>
+    </path>
+  </g>
+
+  <!-- title -->
   <g>
-    <text x="50%" y="55%" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="40" fill="#fff" font-weight="700">Zava07</text>
+    <text x="50%" y="90" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="44" fill="#fff" font-weight="800" style="letter-spacing:1px">Zava07</text>
+    <text x="50%" y="120" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="14" fill="#e6f7ff">Full-Stack • Java • Vue • Docker • PostgreSQL</text>
+  </g>
+
+  <!-- subtle floating dots -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="80" cy="40" r="3">
+      <animate attributeName="cy" values="40;30;40" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="60" r="3">
+      <animate attributeName="cy" values="60;50;60" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="30" r="2" opacity="0.9">
+      <animate attributeName="cy" values="30;24;30" dur="4s" repeatCount="indefinite"/>
+    </circle>
   </g>
 </svg>

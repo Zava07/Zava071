@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="260" viewBox="0 0 420 260">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0f1720"/>
+      <stop offset="100%" stop-color="#0b0f14"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#00d2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="260" rx="12" fill="url(#bg)"/>
+  <!-- desk -->
+  <rect x="20" y="180" width="380" height="18" rx="4" fill="#111318"/>
+  <!-- monitor -->
+  <rect x="40" y="36" width="160" height="96" rx="8" fill="#081018" stroke="#24303a"/>
+  <rect x="52" y="52" width="136" height="64" rx="4" fill="url(#screenGrad)"/>
+  <!-- laptop -->
+  <rect x="220" y="64" width="150" height="96" rx="8" fill="#0e1113" stroke="#24303a"/>
+  <rect x="236" y="80" width="118" height="56" rx="4" fill="#081018"/>
+  <g fill="#9cc4ff" font-family="Segoe UI, Arial" font-size="10">
+    <text x="62" y="78">const ewan = {'{'} </text>
+    <text x="62" y="92">&nbsp;&nbsp;location: "Madagascar, MG",</text>
+    <text x="62" y="106">&nbsp;&nbsp;education: "ITU - Computer Science",</text>
+    <text x="62" y="120">&nbsp;&nbsp;currentFocus: "Full-Stack Web Dev"</text>
+    <text x="62" y="134">{'}'}</text>
+  </g>
+  <!-- animated dot -->
+  <circle cx="360" cy="50" r="4" fill="#2ee6a7">
+    <animate attributeName="cy" values="50;44;50" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

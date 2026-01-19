@@ -15,7 +15,11 @@ Bienvenue sur mon profil GitHub ! Ici tu trouveras mes projets, technologies et 
 
 ---
 
-## 👋 About Me
+## 👋 À propos
+
+<table>
+  <tr>
+    <td width="60%">
 
 ```json
 {
@@ -28,7 +32,19 @@ Bienvenue sur mon profil GitHub ! Ici tu trouveras mes projets, technologies et 
 }
 ```
 
-> Mes informations "À propos" sont stockées dans `about.json` à la racine du dépôt. Modifie ce fichier pour mettre à jour rapidement ton profil et les liens.
+- 🔭 Je travaille actuellement sur des projets full‑stack.
+- 🌱 J’apprends constamment de nouvelles technologies (Vue, Docker, etc.).
+- 💬 N’hésite pas à me poser des questions sur le développement web.
+- 📫 Contacte‑moi via mon portfolio ou LinkedIn (ci‑dessous).
+
+> Toutes ces informations sont aussi stockées dans `about.json` (racine du repo) pour faciliter les mises à jour.
+
+    </td>
+    <td align="right">
+      <img src="assets/illustration.svg" alt="Illustration" width="320"/>
+    </td>
+  </tr>
+</table>
 
 ### 🔗 Liens rapides
 
