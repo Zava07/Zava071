@@ -79,17 +79,9 @@
 
 ### 🔗 Liens rapides
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/zava-anjaranantenaina-b64a04329/">
-    <img src="https://img.shields.io/badge/LinkedIn-Zava%20Anjaranantenain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/JoaryZava12652">
-    <img src="https://img.shields.io/badge/Twitter-@JoaryZava-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://github.com/Zava07">
-    <img src="https://img.shields.io/badge/GitHub-Zava07-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+- 🔗 LinkedIn : [Zava Anjaranantenain](https://www.linkedin.com/in/zava-anjaranantenaina-b64a04329/)
+- 🐦 Twitter : [Joary Zava](https://x.com/JoaryZava12652)
+- 💻 GitHub : [Zava07](https://github.com/Zava07)
 
 ---
 
